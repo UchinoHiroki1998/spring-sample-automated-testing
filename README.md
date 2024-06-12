@@ -3,6 +3,11 @@
 - MockMVCを用いて簡単な自動テストを行っている
 - 中身はタスクのCRUD
 
+# 技術
+- Spring Boot
+- PostgreSQL
+- Bootstrap
+
 # 環境構築
 
 データベースはPostgresqlを用いる。
