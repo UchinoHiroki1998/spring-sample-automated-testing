@@ -1,0 +1,9 @@
+<div th:replace="/common/alerts"></div>
+<div class="mb-3">
+	<label for="inputName" class="form-label">タスク名</label>
+	<input type="text" name="name" id="inputName" class="form-control" th:value="${task.name}">
+</div>
+<div class="mb-3">
+	<label for="inputExplanation" class="form-label">概要</label>
+	<input type="text" name="explanation" id="inputExplanation" class="form-control" th:value="${task.explanation}">
+</div>
